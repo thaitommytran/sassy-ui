@@ -27,7 +27,7 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for B2B, B2C, & SAAS
           platforms.
         </p>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-blbg-[#00df9a] text-black rounded-md font-medium w-[200px] px-6 py-3 whitespace-nowrap transition-all duration-300 hover:bg-[#00c785] hover:shadow-lg hover:scale-105">
           Get Started
         </button>
       </div>
