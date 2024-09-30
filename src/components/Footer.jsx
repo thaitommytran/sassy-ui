@@ -37,12 +37,12 @@ const Footer = () => {
           repellat a magnam. Magni, unde. Temporibus officiis laboriosam
           molestiae a.
         </p>
-        <div className="flex justify-around md:justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagramSquare size={30} />
-          <FaSquareXTwitter size={30} />
-          <FaLinkedin size={30} />
-          <FaGithubSquare size={30} />
+        <div className="flex justify-around lg:justify-between md:w-[75%] my-6">
+          <FaFacebookSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
+          <FaInstagramSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
+          <FaSquareXTwitter className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
+          <FaLinkedin className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
+          <FaGithubSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between">
