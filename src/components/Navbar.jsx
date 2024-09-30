@@ -20,11 +20,9 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </div>
       <div
-        className={
-          nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-            : "fixed left-[-100%]"
-        }
+        className={`fixed top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 ${
+          nav ? "left-0" : "left-[-100%]"
+        }`}
       >
         <h1 className="w-full text-3xl font-bold text-[#00df9a] px-4 py-[30px]">
           SaaSy UI.
