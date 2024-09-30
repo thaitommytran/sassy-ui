@@ -38,11 +38,11 @@ const Footer = () => {
           molestiae a.
         </p>
         <div className="flex justify-around lg:justify-between md:w-[75%] my-6">
-          <FaFacebookSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
-          <FaInstagramSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
-          <FaSquareXTwitter className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
-          <FaLinkedin className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
-          <FaGithubSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl" />
+          <FaFacebookSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl hover:cursor-pointer" />
+          <FaInstagramSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl hover:cursor-pointer" />
+          <FaSquareXTwitter className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl hover:cursor-pointer" />
+          <FaLinkedin className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl hover:cursor-pointer" />
+          <FaGithubSquare className="text-4xl sm:text-5xl md:text-6xl lg:text-3xl hover:cursor-pointer" />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between">
